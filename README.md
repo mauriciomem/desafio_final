@@ -20,13 +20,13 @@ Desde nuesto trabajo con modelos de clasificacion supervisados, extraemos el mod
  Fuente de repositorio de imagenes:
 
 * [Covid-19 Image Dataset](https://www.kaggle.com/pranavraikokte/covid19-image-dataset). Usability: 8.8
- * Dataset para deteccion de casos de Covid o Neumonia a traves de imagenes de radiografias de torax.
- * Las imagenes fueron liberadas por la Universidad de Montreal.
+  * Dataset para deteccion de casos de Covid o Neumonia a traves de imagenes de radiografias de torax.
+  * Las imagenes fueron liberadas por la Universidad de Montreal.
 
 
 * [COVID19 High quality images](https://www.kaggle.com/theroyakash/covid19). Usability: 5.0
- * Dataset para deteccion de casos de Covid o Neumonia a traves de imagenes de radiografias de torax.
- * Fuente no oficial. Imagenes extraidas desde sitios publicos mediante Web Scrapping.
+  * Dataset para deteccion de casos de Covid o Neumonia a traves de imagenes de radiografias de torax.
+  * Fuente no oficial. Imagenes extraidas desde sitios publicos mediante Web Scrapping.
 
 Ambos datasets se encuentran dispuestos en una estructura de directorios que comienza con la separacion de carpetas de training y testing. Luego a partir de estas carpetas se crean nuevas carpetas que identifican los casos de Covid, Neumonia y casos sin afecciones.
 
