@@ -1,11 +1,11 @@
 ## DH - DESAFIO 4
 
-Desde nuesto trabajo con modelos de clasificacion supervisados, extraemos el modelo con mejor performance para analizar:
+Desde nuesto trabajo con modelos de clasificacion supervisados, analizados en la entrega [anterior](https://github.com/mauriciomem/DH_DS_desafio_3), extraemos el modelo con mejor performance para analizar:
 
  * Performance por cantidad de features utilizadas con PCA (explained variance).
  * Visualizacion de dimensionalidad reducida de dataset con tecnicas de Mainfold learning.
- * Feature importance y filter methods.
- * LIME para comprension en la clasificacion de imagenes.
+ * Feature seleccion con metodo K Best. 
+ * LIME para comprension en la clasificacion de imagenes[1].
  * Construccion de aplicacion de carga de imagenes y aplicacion de LIME y PCA [Covid RX app](https://github.com/mauriciomem/flask_photo_pred "RX app")
 
 ### Alcance del trabajo
@@ -51,6 +51,10 @@ $ tree -d .
 ```
 
 Con el armado del dataset delegaremos luego en los metodos `train_test_split()` y `StratifiedKFold()` de la bilbioteca scikit-learn la distribucion del set de datos para training y testing.
+
+### Referencias
+
+ ![1][Local Interpretable Model-agnostic Explanations para clasificacion de imagenes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7269964/), Cristian Arteaga, Oct 21, 2019
  
 
 ### Integrantes
@@ -58,5 +62,3 @@ Con el armado del dataset delegaremos luego en los metodos `train_test_split()` 
  * [Natalia Soria](https://github.com/natsoria)
  * [Fernando Torres](https://github.com/fetorres0)
  * [Mauricio Mitolo](https://github.com/mauriciomem)
-
-
