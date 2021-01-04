@@ -54,7 +54,7 @@ Con el armado del dataset delegaremos luego en los metodos `train_test_split()` 
 
 ### Referencias
 
- ![1][Local Interpretable Model-agnostic Explanations para clasificacion de imagenes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7269964/), Cristian Arteaga, Oct 21, 2019
+ [1][Local Interpretable Model-agnostic Explanations para clasificacion de imagenes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7269964/), Cristian Arteaga, Oct 21, 2019
  
 
 ### Integrantes
